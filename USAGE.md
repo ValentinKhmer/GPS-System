@@ -8,30 +8,25 @@
 	<a href="https://github.com/ValentinKhmer/GPS-System/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ValentinKhmer/GPS-System?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABmJLR0QA%2FwD%2FAP%2BgvaeTAAACfklEQVRIia2U2YuOYRiHr2%2BMsQ0RsiVLDpyQQweWOdEoZUlCkyUHFMWBE2fiL3Cg7GMpSmoi0iiyFImSE4e2UmhsMZJlXA7e%2B9Pj8X7fYPzq633u330%2F7%2FUs73fDX0hdpu79mzlVNWYvqgBLgZnA06x2LLALaFKHAlez%2FFCgCThRqVS6elvxbvuuZ2q%2FujsC5iTj%2FcDpGI8CzmS1h4GTMW4Gzsd4fOzuXT1Qely3K5XKtdjp9JIDeJXkG4D3wDCgG%2FiQFzdUB3E%2FLcAToAdYlNR1AXeT%2BCNwM4nnBeRh7GZuTRAwG5gMHAGuA4vU5iQ%2FIxkPASYm8SpAYH08V%2Bagn1L3xGVOVzfGeFWSX61%2BDf%2BU2j%2F8RvWlejPiW2pXNZ9DGuJruRfxKPWL2pHVHVfNvIUB3xrxtohby0AtkdyReJ3qJ3VY4h0rAR1Ve9QJEY%2BLuL0MtC9A0xJvQ3httUBqk%2FpGvZ6974b6Vh2QmtUzvpMVD1c%2Fq%2BfqgJbEYjZnc7eEvzg1W8PcXrLTCwEbUQN0Sv2mjsnmjY4P52Rqtqvf1UkloDWxiLU5SB2sflAv5%2FMif0XtVodA0RlWAI%2BB1uyeAQYB34BNwIkst4ai9bxQN5awnlP839qAg43AYGAqcKBsZaEJJd7oeLbFr5ZGQtEZHtUpqqqzxDtE0QXqSYpOA%2Br8uKNa6lYHRm3%2BMZyNmnx%2BNe74FavrLDpBrlcmnTsHhXepxgIvlu9Rm9Wd6nm1Q11XUvMbKPxZ6mH1Yjxn9nKk9VUL9Cdq6L3kF1X%2BBfLHUqfEcfbE%2BT9Ql%2F9vyHj1eXbRVWDfYRYtplN9XeOr0qKf3VcX9AV0rA4g17ve3vcDoj5UHHfIGa8AAAAASUVORK5CYII%3D&style=for-the-badge" alt="GitHub License"></a>
 </p>
 
-## Description
+## Récupération de position
 
-> **[GPS System](https://github.com/ValentinKhmer/GPS-System)** est un système de traitement de requête permettant d'obtenir la position d'un téléphone par [SMS](https://fr.wikipedia.org/wiki/Short_Message_Service) grâce à [MacroDroid](https://www.macrodroid.com/).
+> **Si vous souhaitez récupérer** la position d'un téléphone ayant installé **[GPS System](https://github.com/ValentinKhmer/GPS-System)**, vous êtes sur la bonne page !
 
-## Utilisation
-- [Installation](INSTALL.md)
-- [Récupération de position](USAGE.md)
+1. Assurez-vous que vous êtes autorisé à récupérer la position du propriétaire du numéro de téléphone !
+2. Envoyer un `📍` par [SMS](https://fr.wikipedia.org/wiki/Short_Message_Service) à la personne dont vous souhaitez sa localisation.
+3. Attendez une réponse du téléphone.
+4. Voilà ! Vous avez maintenant la position de votre proche/ami !
 
-## Fonctionnement
-```mermaid
-sequenceDiagram
-    actor Personne¹
-    participant GPS System 🛰
-	actor Personne²
-    Personne¹ ->> GPS System 🛰: SMS 📍
-	Note over GPS System 🛰: Vérification de la liste blanche ✅
-	GPS System 🛰 ->> Personne¹: Confirmation d'execution 🚀
-	GPS System 🛰 ->> Personne²: Notification de demande 🔔
-	Note over GPS System 🛰: Mise à jour de la position 📰
-	GPS System 🛰 ->> Personne¹: Envoi de la position de "Personne²" 💬
-```
+### FaQ
 
-## Crédits
-### Platform
-- [MacroDroid](https://www.macrodroid.com/)
-### Illustrations
-- [Jessyka](https://twitter.com/jslthn) - *Artwork Tips*
+**Je n'ai pas reçu de réponse du téléphone.**
+_Plusieurs hypothèses peuvent être possibles :_
+
+- Vous n'êtes pas sur la liste blanche (Contacter le propriétaire du numéro)
+- Le téléphone est injoignable / hors-ligne / éteint.
+- Le script n'a pas été installé / mal installé / fonctionne mal.
+
+**J'ai reçu une position avec une incertitude de ±600m**
+_Cela pourrais vous sembler étrange mais c'est probablement une erreur_
+
+- Ré-essayer à nouveau dans après au moins 2 minutes.

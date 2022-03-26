@@ -1,0 +1,166 @@
+{
+	"isActionBlock": false,
+	"isBeingImported": false,
+	"isClonedInstance": false,
+	"isFavourite": false,
+	"localVariables": [],
+	"m_GUID": -8690020166413484534,
+	"m_actionList": [
+		{
+			"m_addToMessageLog": false,
+			"m_contact": {
+				"m_id": "Hardwired_Number",
+				"m_lookupKey": "Hardwired_Number",
+				"m_name": "[Choisir un Numéro]"
+			},
+			"m_messageContent": "〔GPS System 🛰️〕 \nRequête en cours d\u0027exécution...🚀",
+			"m_number": "[sms_number]",
+			"m_prePopulate": false,
+			"m_simId": 0,
+			"m_SIGUID": -5162429883741132546,
+			"m_classType": "SendSMSAction",
+			"m_constraintList": [],
+			"m_isDisabled": false,
+			"m_isOrCondition": false
+		},
+		{
+			"m_backgroundColor": -14606047,
+			"m_displayIcon": true,
+			"m_duration": 0,
+			"m_horizontalPosition": 0,
+			"m_imageName": "material_ic_gps_fixed_24px_svg",
+			"m_imagePackageName": "com.arlosoft.macrodroid",
+			"m_imageResourceName": "material_ic_gps_fixed_24px_svg",
+			"m_messageText": "Votre position à été demandée par [sms_name]",
+			"m_position": 0,
+			"m_textColor": -1,
+			"m_tintIcon": false,
+			"useTextOnly": false,
+			"m_SIGUID": -8348390834731930055,
+			"m_classType": "ToastAction",
+			"m_constraintList": [],
+			"m_isDisabled": false,
+			"m_isOrCondition": false
+		},
+		{
+			"blockNextAction": false,
+			"m_iconBgColor": -4342339,
+			"m_imageResourceId": 2131231962,
+			"m_imageResourceName": "material_ic_gps_fixed_24px_svg",
+			"m_macroGUIDToRun": 0,
+			"m_notificationChannelType": 1,
+			"m_notificationSubject": "GPS System 🛰️ ",
+			"m_notificationText": "Votre position à été demandée par [sms_name]",
+			"m_overwriteExisting": false,
+			"m_priority": 0,
+			"m_ringtoneIndex": 0,
+			"m_ringtoneName": "Par défaut",
+			"m_runMacroWhenPressed": false,
+			"notificationActionButtons": [],
+			"notificationChannelName": "Action de notification (Priorité élevée)",
+			"m_SIGUID": -7664774054378431479,
+			"m_classType": "NotificationAction",
+			"m_constraintList": [],
+			"m_isDisabled": false,
+			"m_isOrCondition": false
+		},
+		{
+			"m_delayInMilliSeconds": 200,
+			"m_delayInSeconds": 0,
+			"m_useAlarm": true,
+			"unitForVariables": 0,
+			"m_SIGUID": -7777824586884115321,
+			"m_classType": "PauseAction",
+			"m_constraintList": [],
+			"m_isDisabled": false,
+			"m_isOrCondition": false
+		},
+		{
+			"enableRegex": false,
+			"m_ageInSeconds": 0,
+			"m_applicationNameList": ["Messages"],
+			"m_clearPersistent": false,
+			"m_excludes": false,
+			"m_matchOption": 1,
+			"m_matchText": "📍",
+			"m_option": 1,
+			"m_packageNameList": ["com.google.android.apps.messaging"],
+			"m_SIGUID": -8502806687662827489,
+			"m_classType": "ClearNotificationsAction",
+			"m_constraintList": [],
+			"m_isDisabled": false,
+			"m_isOrCondition": false
+		},
+		{
+			"m_state": 1,
+			"m_SIGUID": -5912646088706222759,
+			"m_classType": "SetLocationModeAction",
+			"m_constraintList": [],
+			"m_isDisabled": false,
+			"m_isOrCondition": false
+		},
+		{
+			"m_SIGUID": -7550544459020332755,
+			"m_classType": "ForceLocationUpdateAction",
+			"m_constraintList": [],
+			"m_isDisabled": false,
+			"m_isOrCondition": false
+		},
+		{
+			"m_delayInMilliSeconds": 200,
+			"m_delayInSeconds": 0,
+			"m_useAlarm": true,
+			"unitForVariables": 0,
+			"m_SIGUID": -7068525683512644654,
+			"m_classType": "PauseAction",
+			"m_constraintList": [],
+			"m_isDisabled": false,
+			"m_isOrCondition": false
+		},
+		{
+			"m_addToMessageLog": false,
+			"m_contact": {
+				"m_id": "Hardwired_Number",
+				"m_lookupKey": "Hardwired_Number",
+				"m_name": "[Choisir un Numéro]"
+			},
+			"m_messageContent": "〔GPS System 🛰️〕 \n\n[last_loc_link]\n\n*Incertitude : ±[last_loc_accuracy]m ",
+			"m_number": "[sms_number]",
+			"m_prePopulate": false,
+			"m_simId": 0,
+			"m_SIGUID": -6865320635579961760,
+			"m_classType": "SendSMSAction",
+			"m_constraintList": [],
+			"m_isDisabled": false,
+			"m_isOrCondition": false
+		}
+	],
+	"m_category": "Localisation",
+	"m_constraintList": [],
+	"m_description": "",
+	"m_descriptionOpen": false,
+	"m_enabled": true,
+	"m_excludeLog": false,
+	"m_headingColor": 0,
+	"m_isOrCondition": false,
+	"m_name": "GPS System 🛰️ ",
+	"m_triggerList": [
+		{
+			"enableRegex": true,
+			"isExcludeContact": false,
+			"m_exactMatch": true,
+			"m_excludes": false,
+			"m_option": 0,
+			"m_smsContent": "📍",
+			"m_smsFromList": [
+				{ "m_id": "-1", "m_lookupKey": "-1", "m_name": "[Tout Contact]" }
+			],
+			"m_smsNumberExclude": false,
+			"m_SIGUID": -5059312318413361631,
+			"m_classType": "IncomingSMSTrigger",
+			"m_constraintList": [],
+			"m_isDisabled": false,
+			"m_isOrCondition": false
+		}
+	]
+}
