@@ -13,10 +13,14 @@
 > **[GPS System](https://github.com/ValentinKhmer/GPS-System)** est un système de traitement de requête permettant d'obtenir la position d'un téléphone par [SMS](https://fr.wikipedia.org/wiki/Short_Message_Service) grâce à [MacroDroid](https://www.macrodroid.com/).
 
 ## Utilisation
-- [Installation](INSTALL.md)
-- [Récupération de position](USAGE.md)
+
+<a href="INSTALL.md"><img src="https://img.shields.io/badge/-Installation-FFFFFF?color=7cb342&style=for-the-badge&labelColor=2e7d32&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAADYUlEQVRYhe2Yv4scZRjHP8/s3mEurjNz+yO4QmwsVFAksNpESJpodcEilShikRCCosHCQtS/wNNC8RcoGizsxC4QzSFYeIgR4VKoBNnccmZ3Z2dmJZDLzjwWl+jd7MzsezeXaLHf8vn54X3nfV7egamm+m8lRQtcCYL7LOUMUE64RhH69D7H+b1I/WTRbUugBTyW5rNEWkAhQKtIMgAq92T64hyfoYwB223do6rj8aJ3Z1fXZtKkqnJJ9Y5dBfQ8z95TCX7tB+FKz/dPdjqduQ17eFCUo1l5ohz1vPAgwNra2t6e75/sB+HFShD85nmebdLb6JB0g2BRlJc2Myv8IPCEQQ0FzgKPAu4/RmGxbtunCwP2h8MHNYovADOTYrepkRWXDszP3/lLXtDELdYoXmT34QDKsRW/PSkodwW7g3BBRL8ybPijCksAohwCDpgkaSwL9fm7vs7y585BJWoLsgq54+I6wvM12z6z2dgbBM8ifEzu6uuqStzOY8jd4obr/lSGh4AvsqPktSQcQM21PwN9PRMNvpwRebjhuhfyGIyvut4gfA7RTxLma/H6tVqj0fgrLafb7VZkZrYHzG6F0xN1x/nQpK/xoNYS36eY21lwAPV6fQiMb6FlnTftaw4YRXMp5mrq7XIzZ8NXNayVKiPAvu8fs8Q6l+JyvTA8kpXXDcMnAWesqVjn+r5/zKR3/pjpditSnn0X4ZmcsD8kGj1erVa3bKXneftjq/QdsD8zU/lcR+unbnwKOwD0/eOCfJAXs9GHnqBviWUtAWgcHwZ5mZTtHc/V43XH+WhHgJ1OZ252bu8KcO+kRjuTrsbr6/fnHbTcb7DZbF5V4dXdB9uQirySBweGc7Dnh9+CHkqYI6BkyDJi7NbSpaptHxYRzUs0OsVWbL14owkg51F5akZoILzzrz1VEcKn10tWU2NZAPnmJrAVl1+YBAfbuEn6vn9kpPrnPtf9eas9fF/RExlp79Uc+9Rmw5XB4JGSSKPqOGdN+ho/mrIKquhlMtdBLyctk+7epAo/miSW1UynWp2i9QsDRkjmszJGLhWtX/jhDtAbDh9I3q9SKl2tVSoXd6P+VEWUusXLy8tv3m4QgFarNdY3dcyIyBu3HidVY4DF/83cYmUN6pXbSjHVVP9j/Q0koi0yeApB4AAAAABJRU5ErkJggg==" alt="Installation"></a>
+<a href="USAGE.md">
+<br>
+<img src="https://img.shields.io/badge/-Récupération%20de%20position-FFFFFF?color=ff3d00&style=for-the-badge&labelColor=cc3000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAAD7UlEQVRYhe2XT2hcVRTGf+fNmySTaSb9k0wGI6kiLqwbm/dmEEoXwX9QkUaFUEEFqaAguJJuBLHiRsStlC4UdauEdpGCEkRFrMm86ijpwgSENiE1iU2m08wMk+QdN6lppnem707VjflgFnPOd+738d6599wHO9jBDppC7qRYVSUIgiOq+qyIHAL6N1Nzqvo98Lnv++dERP9zg/l8flBETqlq9jbUiTAMX8nlcj+3otOSwSAInlHVz4DOiCVlEXne87xRWy1rg5OTk4dEZBxotyythWH4eC6X+8amyLEhT01NtYnIJ9ibA2hzHOfj6elpq1org5VK5WXgPkPqFxF5qlqtpqrVakpVjwK/Gnj3FovFl2w0XRsycMwQmwCGPM8r3xQ7WygUxtfX17+u30Qicgw4FVUwcg/m8/k4UAFidYK+53mBqWZycjInIj/WhddLpVJiaGhoPYpu5FcchmGm3hxwpZE5gGw2OwEs1IXdRCKRiaob2aDruiZu2RCrx2rEtYyITJyZmZkFinXh/YVCId2o5vz5833AQF142fO82X/c4MjIyAYwVheO1Wq1txrVuK77Nre2xZiIhFF1rXaxqp4WkedujonIa0EQrKrqSd/3ywD5fL4TOAm8Wr+G4zinbTStJsnm5WAKeMCQXgFu7NiHgW4D56Lv+w/aaFod1Ju3kncbpHcDT2z+TOYQkXds9KCFWayqThAEeeCgZWnB87xBm/4DyycIICKhqr5pWwecsDUHLRgEyGaz54AzUfki8oXv+1+2otWSwU28juEQNqDsOM4brYpY9+CVUikdD8NBQjmw9OfCcGll5XAzflcq9V1Pb98oDhfXHOenTFdX/ei7M4Oq6lwtFh9RZBg4AtyzzfDcHNWKeeJ1JBL03dWPyJaMwu+ijInomb3d3eO368uGBlVVrhZLxxU9AdzfiLe2tsb85UuE4XYdEaF/YD9uPN5Mf1qQ9/Z2d33U6MPKaHBhYWGX09Y+CjzabPUbuH7tGksLf2yL7Uun6UoZj0MTvlqvVp7OZDK39LRxkzjx9g+jmgPYlUrRmUz+/T+RTNqYA3jM7UgYR6B5FwtP2qwO0JPuIxZzibkuPb0NLzjNMGwKGg3q1kyNDCcWozeTobcvQ8y1/ZIA4AfjukZq3D0OTNsqdCQSdCQStmUAv2ncfcGUMBrsTSbna+XVhwT9ALjeimJEXBf0/Vp59WBvMjlvItz2HFxeXt694TgvonIU9DDQ9NyIgDXgW4SzsTD8dM+ePSvNyFaTZHFxsQu3Y9AhHAxFD4DcLcoAwj6gja1rVhGoISypchl01lGZ2sC5wFrlQjqd/jffyg528P/CX21lPNaLCRQqAAAAAElFTkSuQmCC" alt="Récupération de position"></a>
 
 ## Fonctionnement
+
 ```mermaid
 sequenceDiagram
     actor Personne¹
@@ -27,11 +31,17 @@ sequenceDiagram
 	GPS System 🛰 ->> Personne¹: Confirmation d'execution 🚀
 	GPS System 🛰 ->> Personne²: Notification de demande 🔔
 	Note over GPS System 🛰: Mise à jour de la position 📰
-	GPS System 🛰 ->> Personne¹: Envoi de la position de "Personne²" 💬
+	GPS System 🛰 ->> Personne¹: Envoi de la position de Personne² 💬
 ```
 
+_Le schéma ne s'affiche pas correctement ? [Cliquez ici](.github/assets/schema.png) !_
+
 ## Crédits
+
 ### Platform
+
 - [MacroDroid](https://www.macrodroid.com/)
+
 ### Illustrations
-- [Jessyka](https://twitter.com/jslthn) - *Artwork Tips*
+
+- [Jessyka](https://twitter.com/jslthn) - _Artwork Tips_

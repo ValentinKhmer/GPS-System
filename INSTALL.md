@@ -17,14 +17,14 @@
 3. Cliquer sur **`Exporter/Importer`** _(avec l'icône 💾)_
 4. Dans la section `Importer`, sélectonner **`Stockage`** _(avec l'icône 💾)_
 5. Sélectionner **GPS_Sys.macro**, dans votre dossier de téléchargement
-6. Dans la section `Déclencheurs`, cliquer sur `SMS reçu de [Tout Contact]`*
+6. Dans la section `Déclencheurs`, cliquer sur `SMS reçu de [Tout Contact]`
    1. Cliquez sur `Configurer`
    2. Sélectionner `Choisir un(des) contact(s)` et cliquer sur `OK`
    3. Sélectionner les contacts qui pourront récupérer votre position et cliquer sur `OK`
       - Assurez-vous de bien décocher `[Tout Contact]`
    4. **Ne modifier pas les paramètres** et cliquer sur `OK`
 7. Cliquez sur l'icône en bas à droite
-   - **\*Note**: Il est possible que l'application plante/crash. à cette étape !\*
+   - _**Note**: Il est possible que l'application plante/crash. à cette étape !_
 8. Voilà ! **[GPS System](https://github.com/ValentinKhmer/GPS-System)** à été installé sur votre téléphone !
 
 ## Problèmes ? Questions ?

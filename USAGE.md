@@ -19,14 +19,16 @@
 
 ### FaQ
 
-**Je n'ai pas reçu de réponse du téléphone.**
+**Je n'ai pas reçu de réponse du téléphone.** <br>
 _Plusieurs hypothèses peuvent être possibles :_
 
-- Vous n'êtes pas sur la liste blanche (Contacter le propriétaire du numéro)
+- Vous n'êtes pas autorisé à récupérer la position
+  - _Contacter le propriétaire du numéro_
 - Le téléphone est injoignable / hors-ligne / éteint.
 - Le script n'a pas été installé / mal installé / fonctionne mal.
 
-**J'ai reçu une position avec une incertitude de ±600m**
+**J'ai reçu une position avec une incertitude de ±600m.** <br>
 _Cela pourrais vous sembler étrange mais c'est probablement une erreur_
 
 - Ré-essayer à nouveau dans après au moins 2 minutes.
+  - _Sera corrigé dans une prochaine mise à jour_
